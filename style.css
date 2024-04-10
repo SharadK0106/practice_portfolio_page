@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgb(148, 148, 250);
+  font-size: 1.02rem;
+}
+
+a:active {
+  color: blue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(6, 6, 83);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+.firstSection > div {
+  width: 30%;
+}
+.rightpanel img {
+  width: 200%;
+  margin: 0 0;
+}
+.leftpanel {
+  font-size: 2.5rem;
+}
+.rightpanel {
+  display: flex;
+  align-items: center;
+}
+.leftpanel div {
+  margin: 5px 0;
+}
+.purple {
+  color: blueviolet;
+}
+#element {
+  color: blueviolet;
+}
+.secondSection {
+  width: 80vw;
+  margin: auto;
+  height: 60vh;
+}
+main hr {
+  border: 0;
+  background-color: rgb(88, 88, 163);
+  height: 1px;
+  margin: 40px 80px;
+}
+.secondSection h1 {
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.text-grey {
+  color: grey;
+}
+.horizontal-line {
+  width: 80vw;
+  background-color: grey;
+  height: 1px;
+  margin: 20px 0px;
+  display: flex;
+}
+.verticle-line {
+  width: 1px;
+  background-color: grey;
+  height: 50px;
+  margin: 0px 150px;
+}
+.top-image {
+  width: 40px;
+  position: relative;
+  top: -45px;
+  left: -20px;
+}
+.verticle-title {
+  width: 150px;
+  font-size: 0.9rem;
+}
+.verticle-disc {
+  width: 150px;
+  font-size: 0.7rem;
+  color: grey;
+}
+.verticle-year {
+  width: 200px;
+  font-size: 0.9rem;
+}
+footer {
+  background-color: rgb(6, 6, 83);
+  color: white;
+  padding: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer li {
+  list-style: none;
+  margin: 10px 10px;
+}
+.footer-first {
+  font-size: 1.5rem;
+}
+.center-text {
+  text-align: center;
+  color: grey;
+  margin-top: 20px;
+  font-size: 0.7rem;
+}
+.leftpanel .btn {
+  padding: 12px;
+  width: 200px;
+  background-color: blueviolet;
+  color: white;
+  border: white solid 2px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
